@@ -28,13 +28,13 @@ TARGET_CPU_ABI := armeabi-v6j
 
 # Target properties
 TARGET_BOOTLOADER_BOARD_NAME := u8150
-TARGET_OTA_ASSERT_DEVICE := u8150,ideos,U8150
+TARGET_OTA_ASSERT_DEVICE := u8150,ideos
 
 # Target information
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_KERNEL := false
 TARGET_NO_RADIOIMAGE := true
-#TARGET_NO_RECOVERY := false
+TARGET_NO_RECOVERY := false
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
@@ -63,7 +63,6 @@ TARGET_USES_OLD_LIBSENSORS_HAL := true
 BOARD_VENDOR_USE_AKMD := akm8973
 
 # Recovery
-#TARGET_PREBUILT_RECOVERY_KERNEL := device/huawei/u8150/prebuilt/recovery_kernel
 #BOARD_CUSTOM_RECOVERY_KEYMAPPING:= ../../device/huawei/u8150/recovery/recovery_ui.c
 #BOARD_LDPI_RECOVERY := true
 
